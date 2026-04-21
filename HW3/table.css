@@ -1,0 +1,40 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 16px;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+th, td {
+    border: 2px solid #333;
+    padding: 10px;
+}
+
+th {
+    background-color: #003366;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #e6f2ff;
+}
+
+@media (max-width: 600px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    th {
+        position: sticky;
+        top: 0;
+    }
+}

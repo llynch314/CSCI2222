@@ -1,0 +1,42 @@
+a {
+    background-image: url("mysprite.gif");
+    background-repeat: no-repeat;
+    background-position: left -67px;
+    padding-left: 40px;
+}
+
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a:link {
+    background-color: lightblue;
+    color: black;
+    text-decoration: underline;
+    display: block;
+    padding: 5px;
+}
+
+a:visited {
+    background-color: lightgreen;
+    color: black;
+}
+
+a:hover {
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+}
+a {
+    background-image: url("mysprite.gif");
+    background-repeat: no-repeat;
+    background-position: left -67px;
+    padding-left: 40px;
+    display: block;
+}
